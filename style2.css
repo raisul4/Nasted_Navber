@@ -1,0 +1,60 @@
+.root{
+    height: 630px;
+    border: 1px solid ;
+    width: 656px;
+    margin: auto;
+    background-image: url("./img/form-893708_960_720.jpg");
+    border-radius: 10px;
+}
+.head{
+    text-align: center;
+    color: white
+}
+.head h4{
+     margin:90px;
+     margin-top: 0px;
+}
+.name{
+    margin-left: 80px;
+}
+.formm{
+    margin-left: 105px;
+    color: rgb(0, 247, 255);
+}
+.formm input{
+    /* width: 80%; */
+    border: none;
+    border-bottom: 3px solid rgb(0, 247, 255);
+    width: 80%;
+    background: transparent;
+    outline: none;
+}
+.formm input[type="submit"]
+{
+    width: 130px;
+    padding: 10px 10px;
+    border: 2px solid rgb(0, 204, 255);
+    margin-top: 30px;
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 160px;
+    background: rgb(34,195,166);
+background: linear-gradient(0deg, rgba(34,195,166,1) 0%, rgba(45,253,100,1) 100%);
+}
+.formm input[type="submit"]:hover{
+    /* color: orangered; */
+    background: rgb(34,195,68);
+background: linear-gradient(0deg, rgba(34,195,68,1) 0%, rgba(45,196,253,1) 100%);
+}
+.homepage h3 a{
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid rgb(43, 226, 217);
+    padding: 10px 20px;
+    float: right;
+    margin-right: 440px;
+    border-radius: 10px;
+
+}
